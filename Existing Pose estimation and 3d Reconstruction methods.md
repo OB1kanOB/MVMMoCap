@@ -11,8 +11,10 @@ AlphaPose, also known as RMPE (Regional Multi-person Pose Estimation)(Fang et al
 2016), uses predefined models of human bodies to identify key points in an image or
 video stream. These keypoints are then used to estimate the overall pose of the body.
 
-![Comparison of detected key-points !](/images/KeypointModelComparison.png "Comparison of detected key-points")
-*Comparison of detected key-points*
+| ![Comparison of detected key-points !](/images/KeypointModelComparison.png "Comparison of detected key-points") |
+|:--:| 
+| *Comparison of detected key-points* |
+
 ![GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against
 the ground truth (Mundt et al., 2022) !](/images/SPMComparison.png "GRF and SPM comparison")
 *GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against
