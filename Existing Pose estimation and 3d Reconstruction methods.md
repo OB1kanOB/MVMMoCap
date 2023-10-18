@@ -15,10 +15,11 @@ video stream. These keypoints are then used to estimate the overall pose of the 
 |:--:| 
 | *Comparison of detected key-points* |
 
-![GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against
-the ground truth (Mundt et al., 2022) !](/images/SPMComparison.png "GRF and SPM comparison")
+| ![GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against |
+|:--:| 
+| the ground truth (Mundt et al., 2022) !](/images/SPMComparison.png "GRF and SPM comparison")
 *GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against
-the ground truth (Mundt et al., 2022)*
+the ground truth (Mundt et al., 2022)* |
 
 ## 3D Reconstruction
 Following pose estimation, 3D reconstruction from multiple 2D poses is the next
@@ -32,8 +33,9 @@ from two or more images, while MVS uses multiple views of a scene to generate a 
 3D point cloud. MVT involves triangulating multiple views of a scene to generate a 3D
 triangular mesh.(Hartley & Sturm, 1997)(Henry & Christian, 2022)
 
-![Example of 2 RGB-D camera setup (Meerits et al., 2019) !](/images/RGBDCameraSetup.png "Example of 2 RGB-D camera setup")
-*Example of 2 RGB-D camera setup (Meerits et al., 2019)*
+| ![Example of 2 RGB-D camera setup (Meerits et al., 2019) !](/images/RGBDCameraSetup.png "Example of 2 RGB-D camera setup") |
+|:--:| 
+| *Example of 2 RGB-D camera setup (Meerits et al., 2019)* |
 
 Indirect methods, on the other hand, first estimate the 3D poses from the 2D poses and
 then use these 3D poses to reconstruct the scene. These methods often involve the use
@@ -46,8 +48,9 @@ widely used SBM, and the MANO model (Romero et al., 2017), which is an ABM that
 models the human hand. These models can be trained on large datasets of 3D human poses, and can be used to generate high-quality 3D reconstructions of human bodies in
 real-time.
 
-![Joints and weights distribution in SMPL (Loper et al., 2015) !](/images/SMPLWeightDistribution.png "Joints and weights distribution in SMPL")
-*Joints and weights distribution in SMPL (Loper et al., 2015)*
+| ![Joints and weights distribution in SMPL (Loper et al., 2015) !](/images/SMPLWeightDistribution.png "Joints and weights distribution in SMPL") |
+|:--:| 
+| *Joints and weights distribution in SMPL (Loper et al., 2015)* |
 
 There are also approaches that aim to achieve 3D pose estimation and reconstruction
 using a single RGB image, such as the Human Mesh Recovery (HMR) model (Kanazawa
@@ -57,10 +60,11 @@ Linear), and iteratively fitting its projection to the 2D image by refining its 
 angles, and scale. By minimizing the reprojection error, the model generates 3D pose
 estimates from a monocular image.
 
-![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-1 !](/images/SMPL3dpose1.png "Shows the iterative fitting on monocular 2D image")
-![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-2 !](/images/SMPL3dpose2.png "Shows the iterative fitting on monocular 2D image")
-![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-3 !](/images/SMPL3dpose3.png "Shows the iterative fitting on monocular 2D image")
-*Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)*
+| ![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-1 !](/images/SMPL3dpose1.png "Shows the iterative fitting on monocular 2D image") |
+| ![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-2 !](/images/SMPL3dpose2.png "Shows the iterative fitting on monocular 2D image") |
+| ![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-3 !](/images/SMPL3dpose3.png "Shows the iterative fitting on monocular 2D image") |
+|:--:| 
+| *Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)* |
 
 It’s crucial to acknowledge that the method under discussion has certain constraints.
 The primary limitation is that it offers a 3D pose representation of the skeleton within
@@ -72,11 +76,12 @@ which is built on the method mentioned above. However, it’s essential to be aw
 of the shortcomings of this approach, especially its restricted depth information in dynamic scenes. This limitation was highlighted during our experiments with custom
 data gathered from our specific scene.
 
-![Comparison of GLAMR vs HybrIK estimation showing the impact of
+| ![Comparison of GLAMR vs HybrIK estimation showing the impact of
 global optimization of positioning (Yuan et al., 2022).
- !](/images/GLAMRvsHybrIK.png "Comparison of GLAMR vs HybrIK")
-*Comparison of GLAMR vs HybrIK estimation showing the impact of
-global optimization of positioning (Yuan et al., 2022)*
+ !](/images/GLAMRvsHybrIK.png "Comparison of GLAMR vs HybrIK") |
+ |:--:| 
+| *Comparison of GLAMR vs HybrIK estimation showing the impact of
+global optimization of positioning (Yuan et al., 2022)* |
 
 The challenge of dynamic camera or subject movement is also tackled in another paper,
 GLAMR (Yuan et al., 2022), which enhances the results of HybrIK while operating
