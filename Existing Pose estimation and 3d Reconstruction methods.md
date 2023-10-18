@@ -17,8 +17,7 @@ video stream. These keypoints are then used to estimate the overall pose of the 
 
 | ![GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against the ground truth (Mundt et al., 2022) !](/images/SPMComparison.png "GRF and SPM comparison") |
 |:--:| 
-| *GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against
-the ground truth (Mundt et al., 2022)* |
+| *GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against the ground truth (Mundt et al., 2022)* |
 
 ## 3D Reconstruction
 Following pose estimation, 3D reconstruction from multiple 2D poses is the next
@@ -62,9 +61,7 @@ estimates from a monocular image.
 | ![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-1 !](/images/SMPL3dpose1.png "Shows the iterative fitting on monocular 2D image") |
 |:--:| 
 | ![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-2 !](/images/SMPL3dpose2.png "Shows the iterative fitting on monocular 2D image") |
-|:--:| 
 | ![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-3 !](/images/SMPL3dpose3.png "Shows the iterative fitting on monocular 2D image") |
-|:--:| 
 | *Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)* |
 
 It’s crucial to acknowledge that the method under discussion has certain constraints.
