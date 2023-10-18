@@ -15,10 +15,9 @@ video stream. These keypoints are then used to estimate the overall pose of the 
 |:--:| 
 | *Comparison of detected key-points* |
 
-| ![GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against |
+| ![GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against the ground truth (Mundt et al., 2022) !](/images/SPMComparison.png "GRF and SPM comparison") |
 |:--:| 
-| the ground truth (Mundt et al., 2022) !](/images/SPMComparison.png "GRF and SPM comparison")
-*GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against
+| *GRF and SPM comparisons of AlphaPose, BlazePose and OpenPose against
 the ground truth (Mundt et al., 2022)* |
 
 ## 3D Reconstruction
@@ -61,7 +60,9 @@ angles, and scale. By minimizing the reprojection error, the model generates 3D 
 estimates from a monocular image.
 
 | ![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-1 !](/images/SMPL3dpose1.png "Shows the iterative fitting on monocular 2D image") |
+|:--:| 
 | ![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-2 !](/images/SMPL3dpose2.png "Shows the iterative fitting on monocular 2D image") |
+|:--:| 
 | ![Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)-3 !](/images/SMPL3dpose3.png "Shows the iterative fitting on monocular 2D image") |
 |:--:| 
 | *Shows the iterative fitting on monocular 2D image (Eidos.Ai, 2021)* |
@@ -76,12 +77,9 @@ which is built on the method mentioned above. However, it’s essential to be aw
 of the shortcomings of this approach, especially its restricted depth information in dynamic scenes. This limitation was highlighted during our experiments with custom
 data gathered from our specific scene.
 
-| ![Comparison of GLAMR vs HybrIK estimation showing the impact of
-global optimization of positioning (Yuan et al., 2022).
- !](/images/GLAMRvsHybrIK.png "Comparison of GLAMR vs HybrIK") |
- |:--:| 
-| *Comparison of GLAMR vs HybrIK estimation showing the impact of
-global optimization of positioning (Yuan et al., 2022)* |
+| ![Comparison of GLAMR vs HybrIK estimation showing the impact of global optimization of positioning (Yuan et al., 2022). !](/images/GLAMRvsHybrIK.png "Comparison of GLAMR vs HybrIK") |
+|:--:| 
+| *Comparison of GLAMR vs HybrIK estimation showing the impact of global optimization of positioning (Yuan et al., 2022)* |
 
 The challenge of dynamic camera or subject movement is also tackled in another paper,
 GLAMR (Yuan et al., 2022), which enhances the results of HybrIK while operating
